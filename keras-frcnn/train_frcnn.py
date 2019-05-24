@@ -71,6 +71,7 @@ else:
 
 # check if weight path was passed via command line
 if options.input_weight_path:
+	print('Importing weights from passed weights. Ravi')
 	C.base_net_weights = options.input_weight_path
 else:
 	# set the path to weights based on backend and model
